@@ -1,0 +1,137 @@
+body {
+	background-image: url("background.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+	font-family: Courier New,  Comic Sans MS, sans-serif;
+	font-size: 35px;
+	background-color: #2ECCFA;
+	text-indent: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.imglogo {
+    margin: 0 auto;
+}
+
+p {
+	font-family: Book Antiqua;
+	color: #333366;
+	font-size: 16px;
+	text-indent: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+table {
+    margin: 5px 20px 20px 5px;
+    float: left;
+}
+
+.imgsuperman, .imgcontact {
+    float: left;
+    margin-right: 10px;
+	margin-left: 10px;
+}
+
+.imgmembers, .imgwatchtower, .imgsupermanlogo, .imgbatmansuit, .imgjltvseries, .imgthebraveandthebold {
+    float: right;
+    margin-right: 10px;
+	margin-left: 10px;
+}
+
+.pagelocation {
+    margin: 0px 350px;
+    background-color: #99F0F0;
+}
+
+.imgbatman2 {
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.imgbatman {
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+
+th {
+		    background: #6fc49c;
+		    color: white;
+		    border-style: groove;
+		}
+tr {
+		    background: #f2f2f2;
+		    border-style: groove;
+		}
+
+
+ul {
+    list-style-type: circle;
+    list-style-position: inside;
+    font-family: Book Antiqua,  Comic Sans MS, sans-serif;
+    color: #333366;
+    font-size: 15px;
+}
+
+ol {
+    font:family: Book Antiqua,  Comic Sans MS, sans-serif;
+    color: #333366;
+    font-size: 17px;
+}
+
+th, td {
+    padding: 10px;
+}
+
+pre {
+    font-size: 180%;
+    padding-left: 10px;
+	padding-right: 10px;
+}
+
+dl {
+	list-style-type: none;
+	margin-right: 30px;
+	margin-top: 25px;
+	background-color: transparent;
+	width: 250px;
+	float: left;
+}
+dd {
+	width: 190px;
+}
+dt a {
+	display: block;
+	background-color: steelblue;
+	padding: 10px;
+	color: black;
+	text-decoration: none;
+	padding: 8px 16px;
+	margin: 0px 20px;
+	}
+dl a {
+	display: block;
+	background-color: steelblue;
+	padding: 10px;
+	color: #fff;
+	text-decoration: none;
+	padding: 8px 16px;
+}
+dl a.active {
+	background-color: skyblue;
+	color: white;
+}
+dl a:hover:not(.active) {
+	background-color: lightblue;
+	color: white;
+}
+iframe{
+    border-width: 0px;
+}
